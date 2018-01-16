@@ -1,1 +1,264 @@
-test method
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment
+$ git init
+Initialized empty Git repository in C:/testing/bootstrap/week4/week_4_peer_assessment/.git/
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git remote add origin "https://github.com/learnautotest/learn.git"
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/learnautotest/learn
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git pull origin master
+From https://github.com/learnautotest/learn
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        AnimalsData.js
+        animal_nav.html
+        css/
+        fonts/
+        index.html
+        js/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git add --all
+warning: LF will be replaced by CRLF in AnimalsData.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in animal_nav.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap-theme.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap_blue.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap_plain.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/gallery.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in fonts/glyphicons-halflings-regular.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/bootstrap.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/handlebars-v3.0.3.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery-2.1.4.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery.min.js.
+The file will have its original line endings in your working directory.
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   AnimalsData.js
+        new file:   animal_nav.html
+        new file:   css/bootstrap-theme.css
+        new file:   css/bootstrap-theme.min.css
+        new file:   css/bootstrap.css
+        new file:   css/bootstrap.min.css
+        new file:   css/bootstrap_blue.css
+        new file:   css/bootstrap_plain.css
+        new file:   css/gallery.css
+        new file:   fonts/glyphicons-halflings-regular.eot
+        new file:   fonts/glyphicons-halflings-regular.svg
+        new file:   fonts/glyphicons-halflings-regular.ttf
+        new file:   fonts/glyphicons-halflings-regular.woff
+        new file:   fonts/glyphicons-halflings-regular.woff2
+        new file:   index.html
+        new file:   js/.DS_Store
+        new file:   js/bootstrap.js
+        new file:   js/bootstrap.min.js
+        new file:   js/handlebars-v3.0.3.js
+        new file:   js/jquery-2.1.4.min.js
+        new file:   js/jquery.js
+        new file:   js/jquery.min.js
+
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git commit -m"added all bootstrap files"
+[master 8a4a05e] added all bootstrap files
+ 22 files changed, 21308 insertions(+)
+ create mode 100644 AnimalsData.js
+ create mode 100644 animal_nav.html
+ create mode 100644 css/bootstrap-theme.css
+ create mode 100644 css/bootstrap-theme.min.css
+ create mode 100644 css/bootstrap.css
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/bootstrap_blue.css
+ create mode 100644 css/bootstrap_plain.css
+ create mode 100644 css/gallery.css
+ create mode 100644 fonts/glyphicons-halflings-regular.eot
+ create mode 100644 fonts/glyphicons-halflings-regular.svg
+ create mode 100644 fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 fonts/glyphicons-halflings-regular.woff
+ create mode 100644 fonts/glyphicons-halflings-regular.woff2
+ create mode 100644 index.html
+ create mode 100644 js/.DS_Store
+ create mode 100644 js/bootstrap.js
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/handlebars-v3.0.3.js
+ create mode 100644 js/jquery-2.1.4.min.js
+ create mode 100644 js/jquery.js
+ create mode 100644 js/jquery.min.js
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git log
+commit 8a4a05e33f6ea827f12ffebe579e3bac6af17404
+Author: yogita <learn.autotest@gmail.com>
+Date:   Tue Jan 16 11:03:45 2018 -0500
+
+    added all bootstrap files
+
+commit 1a5ee4bec0d7118ead86209912955bd3c80869e9
+Author: learnautotest <learn.autotest@gmail.com>
+Date:   Tue Jan 16 10:58:32 2018 -0500
+
+    Initial commit
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git push origin master
+Counting objects: 26, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (26/26), 309.24 KiB | 0 bytes/s, done.
+Total 26 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/learnautotest/learn.git
+   1a5ee4b..8a4a05e  master -> master
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git  checkout branch -b "y_branch"
+fatal: Cannot update paths and switch to branch 'y_branch' at the same time.
+Did you intend to checkout 'branch' which can not be resolved as commit?
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git branch y_branch
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git checkout y-branch
+error: pathspec 'y-branch' did not match any file(s) known to git.
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git checkout y_branch
+Switched to branch 'y_branch'
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git branch
+  master
+* y_branch
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git status
+On branch y_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git add --all
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git commit -m"text file is added"
+[y_branch cbae474] text file is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git push origin y_branch
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/learnautotest/learn.git
+ * [new branch]      y_branch -> y_branch
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git status
+On branch y_branch
+nothing to commit, working tree clean
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git chechkout master
+git: 'chechkout' is not a git command. See 'git --help'.
+
+Did you mean this?
+        checkout
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git checkout master
+Switched to branch 'master'
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git checkout y_branch
+Switched to branch 'y_branch'
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git pull origin master
+remote: Counting objects: 1, done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), done.
+From https://github.com/learnautotest/learn
+ * branch            master     -> FETCH_HEAD
+   8a4a05e..a50de54  master     -> origin/master
+Updating cbae474..a50de54
+Fast-forward
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git  branch
+  master
+* y_branch
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$ git checkout master
+Switched to branch 'master'
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git branch
+* master
+  y_branch
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (master)
+$ git checkout y_branch
+Switched to branch 'y_branch'
+
+Developer@TVComp203-Sudeep MINGW64 /c/testing/bootstrap/week4/week_4_peer_assessment (y_branch)
+$
